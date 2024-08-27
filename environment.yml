@@ -1,0 +1,23 @@
+name: datasim
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pygmo
+  - box2d-py
+  - pygame
+  - gymnasium[box2d]
+  - pip
+  - pip:
+      - gymnasium
+      - jupyterlab
+      - matplotlib
+      - numpy
+      - swig
+      - torch
+      - torchvision
+      - pandas
+      - xgboost
+      - scipy
+      - scikit-learn
+      - skorch
