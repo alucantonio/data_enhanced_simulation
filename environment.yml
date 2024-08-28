@@ -1,3 +1,4 @@
+# manually install JAX, PyTorch-Geometric, Flax
 name: datasim
 channels:
   - conda-forge
@@ -7,6 +8,7 @@ dependencies:
   - box2d-py
   - pygame
   - gymnasium[box2d]
+  - stable-baselines3[extra]
   - pip
   - pip:
       - gymnasium
@@ -16,8 +18,6 @@ dependencies:
       - swig
       - torch
       - torchvision
-      - pandas
-      - xgboost
       - scipy
       - scikit-learn
       - skorch
