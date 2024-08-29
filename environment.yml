@@ -8,7 +8,6 @@ dependencies:
   - box2d-py
   - pygame
   - gymnasium[box2d]
-  - stable-baselines3[extra]
   - pip
   - pip:
       - gymnasium
