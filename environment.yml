@@ -10,6 +10,7 @@ dependencies:
   - gymnasium[box2d]
   - pip
   - pip:
+      - pandas
       - gymnasium
       - jupyterlab
       - matplotlib
