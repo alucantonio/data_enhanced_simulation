@@ -1,4 +1,4 @@
-# manually install JAX, PyTorch-Geometric, Flax
+# manually install JAX, PyTorch-Geometric
 name: datasim
 channels:
   - conda-forge
@@ -21,3 +21,5 @@ dependencies:
       - scipy
       - scikit-learn
       - skorch
+      - flax
+      - jraph
