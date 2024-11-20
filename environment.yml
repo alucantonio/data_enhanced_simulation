@@ -3,7 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - pygmo
   - box2d-py
   - pygame
   - gymnasium[box2d]
@@ -18,5 +17,7 @@ dependencies:
       - scipy
       - scikit-learn
       - stable-baselines3
+      - sbx
       - flax
       - jraph
+      - pyoperon
