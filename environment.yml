@@ -2,7 +2,7 @@ name: datasim
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python==3.12
   - box2d-py
   - pygame
   - gymnasium[box2d]
