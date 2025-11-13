@@ -17,7 +17,7 @@ dependencies:
       - scipy
       - scikit-learn
       - stable-baselines3
-      - sbx
+      - sbx-rl
       - flax==0.11.2
       - jraph
       - pyoperon
